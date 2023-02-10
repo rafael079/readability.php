@@ -1,6 +1,6 @@
 <?php
 
-namespace fivefilters\Readability;
+namespace rafael079\Readability;
 
 class ParseException extends \Exception
 {
