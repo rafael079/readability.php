@@ -1,10 +1,10 @@
 <?php
 
-namespace fivefilters\Readability\Test;
+namespace rafael079\Readability\Test;
 
-use fivefilters\Readability\Configuration;
-use fivefilters\Readability\ParseException;
-use fivefilters\Readability\Readability;
+use rafael079\Readability\Configuration;
+use rafael079\Readability\ParseException;
+use rafael079\Readability\Readability;
 
 ini_set('memory_limit','1024M');
 

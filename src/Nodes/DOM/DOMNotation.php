@@ -1,8 +1,8 @@
 <?php
 
-namespace fivefilters\Readability\Nodes\DOM;
+namespace rafael079\Readability\Nodes\DOM;
 
-use fivefilters\Readability\Nodes\NodeTrait;
+use rafael079\Readability\Nodes\NodeTrait;
 
 class DOMNotation extends \DOMNotation
 {

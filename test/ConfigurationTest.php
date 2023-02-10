@@ -1,8 +1,8 @@
 <?php
 
-namespace fivefilters\Readability\Test;
+namespace rafael079\Readability\Test;
 
-use fivefilters\Readability\Configuration;
+use rafael079\Readability\Configuration;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 

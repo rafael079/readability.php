@@ -35,9 +35,9 @@ Then, create a Readability class and pass a Configuration class, feed the `parse
 ```php
 <?php
 require __DIR__ . '/vendor/autoload.php';
-use fivefilters\Readability\Readability;
-use fivefilters\Readability\Configuration;
-use fivefilters\Readability\ParseException;
+use rafael079\Readability\Readability;
+use rafael079\Readability\Configuration;
+use rafael079\Readability\ParseException;
 
 $readability = new Readability(new Configuration());
 

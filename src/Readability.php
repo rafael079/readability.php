@@ -2,11 +2,11 @@
 
 namespace fivefilters\Readability;
 
-use fivefilters\Readability\Nodes\DOM\DOMDocument;
-use fivefilters\Readability\Nodes\DOM\DOMElement;
-use fivefilters\Readability\Nodes\DOM\DOMNode;
-use fivefilters\Readability\Nodes\DOM\DOMText;
-use fivefilters\Readability\Nodes\NodeUtility;
+use rafael079\Readability\Nodes\DOM\DOMDocument;
+use rafael079\Readability\Nodes\DOM\DOMElement;
+use rafael079\Readability\Nodes\DOM\DOMNode;
+use rafael079\Readability\Nodes\DOM\DOMText;
+use rafael079\Readability\Nodes\NodeUtility;
 use Psr\Log\LoggerInterface;
 use \Masterminds\HTML5;
 use League\Uri\Http;

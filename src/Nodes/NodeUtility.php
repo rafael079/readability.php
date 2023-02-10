@@ -1,11 +1,11 @@
 <?php
 
-namespace fivefilters\Readability\Nodes;
+namespace rafael079\Readability\Nodes;
 
-use fivefilters\Readability\Nodes\DOM\DOMDocument;
-use fivefilters\Readability\Nodes\DOM\DOMElement;
-use fivefilters\Readability\Nodes\DOM\DOMNode;
-use fivefilters\Readability\Nodes\DOM\DOMNodeList;
+use rafael079\Readability\Nodes\DOM\DOMDocument;
+use rafael079\Readability\Nodes\DOM\DOMElement;
+use rafael079\Readability\Nodes\DOM\DOMNode;
+use rafael079\Readability\Nodes\DOM\DOMNodeList;
 
 /**
  * Class NodeUtility.
