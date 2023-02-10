@@ -1,6 +1,6 @@
 <?php
 
-namespace fivefilters\Readability;
+namespace rafael079\Readability;
 
 use rafael079\Readability\Nodes\DOM\DOMDocument;
 use rafael079\Readability\Nodes\DOM\DOMElement;
