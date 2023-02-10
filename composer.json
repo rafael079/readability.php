@@ -1,9 +1,9 @@
 {
-    "name": "fivefilters/readability.php",
+    "name": "rafael079/readability.php",
     "type": "library",
     "description": "A PHP port of Readability.js",
     "keywords": ["readability", "html"],
-    "homepage": "https://github.com/fivefilters/readability.php",
+    "homepage": "https://github.com/rafael079/readability.php",
     "license": "Apache-2.0",
     "authors": [
         {
@@ -20,11 +20,11 @@
     ],
     "autoload": {
         "psr-4": {
-            "fivefilters\\Readability\\": "src/"
+            "rafael079\\Readability\\": "src/"
         }
     },
     "autoload-dev": {
-        "psr-4": {"fivefilters\\Readability\\Test\\": "test"}
+        "psr-4": {"rafael079\\Readability\\Test\\": "test"}
     },
     "require": {
         "php": ">=7.4.0",
