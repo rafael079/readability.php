@@ -1766,6 +1766,7 @@ class Readability
     public function _fixLazyImages(DOMDocument $article)
     {
         $images = $this->_getAllNodesWithTag($article, ['img', 'picture', 'figure']);
+
         foreach ($images as $elem) {
             // In some sites (e.g. Kotaku), they put 1px square image as base64 data uri in the src attribute.
             // So, here we check if the data uri is too short, just might as well remove it.
@@ -1803,9 +1804,9 @@ class Readability
 
             // Don't remove if there's a src or srcset attribute, and there's no sign of 'lazy' loading in the class
             // attribute value.
-            if (($elem->getAttribute('src') || $elem->getAttribute('srcset')) && mb_stripos($elem->getAttribute('class'), 'lazy') === false) {
+            /*if (($elem->getAttribute('src') || $elem->getAttribute('srcset')) && mb_stripos($elem->getAttribute('class'), 'lazy') === false) {
                 continue;
-            }
+            }*/
 
             for ($j = 0; $j < $elem->attributes->length; $j++) {
                 $attr = $elem->attributes->item($j);
@@ -1813,9 +1814,9 @@ class Readability
                     continue;
                 }
                 $copyTo = null;
-                if (preg_match('/\.(jpg|jpeg|png|webp)\s+\d/', $attr->value)) {
+                /*if (preg_match('/\.(jpg|jpeg|png|webp)\s+\d/', $attr->value)) {
                     $copyTo = 'srcset';
-                } elseif (preg_match('/^\s*\S+\.(jpg|jpeg|png|webp)\S*\s*$/', $attr->value)) {
+                } else*/if (preg_match('/^\s*\S+\.(jpg|jfif|jpeg|png|webp)\S*\s*$/', $attr->value)) {
                     $copyTo = 'src';
                 }
                 if ($copyTo) {
